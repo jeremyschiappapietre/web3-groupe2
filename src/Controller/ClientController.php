@@ -48,7 +48,6 @@ class ClientController extends AbstractController
      */
     public function getHumidity(): Response
     {
-        header("Access-Control-Allow-Origin: *");
         $token = 'zX7HbmL8SOMyLsbNoBLCXReGPwDiezJupCDwsgXiJAnoO3h3TLnCRY4A0ycmd9xg1e7g_Dx7Pl_EFoUjMZg05A==';
         $org = 'carlo.berni@hetic.net';
         $bucket = 'mqtt';
@@ -78,7 +77,6 @@ class ClientController extends AbstractController
      */
     public function getBrightness(): Response
     {
-        header("Access-Control-Allow-Origin: *");
         $token = 'zX7HbmL8SOMyLsbNoBLCXReGPwDiezJupCDwsgXiJAnoO3h3TLnCRY4A0ycmd9xg1e7g_Dx7Pl_EFoUjMZg05A==';
         $org = 'carlo.berni@hetic.net';
         $bucket = 'mqtt';
