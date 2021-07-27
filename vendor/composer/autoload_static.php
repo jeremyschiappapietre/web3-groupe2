@@ -74,6 +74,10 @@ class ComposerStaticInit6c5796097511a4eabfad5e0801a5715b
             'Psr\\Cache\\' => 10,
             'PhpParser\\' => 10,
         ),
+        'N' => 
+        array (
+            'Nelmio\\CorsBundle\\' => 18,
+        ),
         'I' => 
         array (
             'InfluxDB2\\' => 10,
@@ -265,6 +269,10 @@ class ComposerStaticInit6c5796097511a4eabfad5e0801a5715b
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Nelmio\\CorsBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nelmio/cors-bundle',
         ),
         'InfluxDB2\\' => 
         array (
