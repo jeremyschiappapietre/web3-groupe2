@@ -18,14 +18,7 @@ class ClientController extends AbstractController
      */
     public function getTemperature(): Response
     {
-        header('Access-Control-Allow-Origin: *');
-        header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method");
-        header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
-        header("Allow: GET, POST, OPTIONS, PUT, DELETE");
-        $method = $_SERVER['REQUEST_METHOD'];
-        if ($method == "OPTIONS") {
-            die();
-        }
+ 
         $token = 'zX7HbmL8SOMyLsbNoBLCXReGPwDiezJupCDwsgXiJAnoO3h3TLnCRY4A0ycmd9xg1e7g_Dx7Pl_EFoUjMZg05A==';
         $org = 'carlo.berni@hetic.net';
         $bucket = 'mqtt';
